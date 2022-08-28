@@ -6,7 +6,7 @@ Demo for EDA
 
 check below instructions will give you a copy of the project up and running on your locla machine
 
-###Prerequisties
+### Prerequisties
 
 * You need to install python 3+ version. https://www.python.org/downloads/
 
