@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 28 07:22:59 PDT 2022","Sun Aug 28 07:23:55 PDT 2022","55872","test_cases.ui","test_upload_file","TestUploadFile","","","Test Upload file to S3 Bucket success",""
