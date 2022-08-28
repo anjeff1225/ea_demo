@@ -9,7 +9,6 @@ import time
 import allure
 from support.api.request_util import RequestUtil
 from support.api.response_util import response_write_to_xlsx, merge_xlsx, attach_log_file
-from support.api.yaml_util import read_testcase_yaml, write_yaml, read_yaml
 
 
 @allure.feature('Test input/product api to get logs (API)')
