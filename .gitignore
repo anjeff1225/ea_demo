@@ -3,5 +3,8 @@
 # test cache & report
 .pytest_cache/
 __pycache__/
+allure_report/
+allure_result/
 report/
 output/
+failures
