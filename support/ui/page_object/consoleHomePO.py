@@ -12,7 +12,9 @@ elementsMap = {
     's3_bucket': 'a[data-analytics="serviceLink_s3"]'
 }
 
+
 class ConsoleHome(BasePage):
+    url = 'https://us-west-1.console.aws.amazon.com/console/home?region=us-west-1#'
 
     def __init__(self, driver):
         BasePage.__init__(self, driver)

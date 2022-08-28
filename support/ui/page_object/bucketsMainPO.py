@@ -12,7 +12,9 @@ elementsMap = {
     'jeff_demo_bucket': 'a[class="bucket-name"]'
 }
 
+
 class BucketsMainPage(BasePage):
+    url = 'https://s3.console.aws.amazon.com/s3/buckets?region=us-west-1&region=us-west-1'
 
     def __init__(self, driver):
         BasePage.__init__(self, driver)

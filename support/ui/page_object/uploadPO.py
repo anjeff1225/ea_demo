@@ -15,7 +15,9 @@ from support.ui.utils import BasePage
 elementsMap = {
     'add_files_button': 'awsui-button[class="upload-file-table__add-file-button"] > button',
     '1st_check_box': '#awsui-checkbox-13-label',
-    'upload_button': 'awsui-button[class="upload-configuration__submit"] >button > span'
+    'upload_button': 'awsui-button[class="upload-configuration__submit"] >button > span',
+    '1st_file': 'span[class="upload-summary-table__column-name"]',
+    '1st_file_status': 'span[class="upload-summary-table__column-status"]'
 }
 
 
@@ -39,6 +41,7 @@ def upload_file_window_action(path):
 
 
 class UploadPage(BasePage):
+    url = 'https://s3.console.aws.amazon.com/s3/upload/jeff-ea-demo?region=us-west-1'
 
     def __init__(self, driver):
         BasePage.__init__(self, driver)
@@ -50,3 +53,11 @@ class UploadPage(BasePage):
             upload_file_window_action(os.getcwd() + r'/input')
             self.click_element(elementsMap['1st_check_box'])
             self.click_element(elementsMap['upload_button'])
+
+    def check_uploaded_file_name(self):
+        with allure.step('Check uploaded file name'):
+            return self.get_text(elementsMap['1st_file'])
+
+    def check_uploaded_file_status(self):
+        with allure.step('Check uploaded file status'):
+            return self.get_text(elementsMap['1st_file_status'])

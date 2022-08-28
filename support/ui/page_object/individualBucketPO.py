@@ -12,7 +12,9 @@ elementsMap = {
     'upload': '#upload-button'
 }
 
+
 class IndividualBucketPage(BasePage):
+    url = 'https://s3.console.aws.amazon.com/s3/buckets/jeff-ea-demo?region=us-west-1&tab=objects'
 
     def __init__(self, driver):
         BasePage.__init__(self, driver)
