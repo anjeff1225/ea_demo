@@ -40,7 +40,7 @@ class TestApi:
             res = RequestUtil().send_request(method='get', url=url)
             res_lists = res.json()
             response_write_to_xlsx(res_lists, f'productlog-{index}')
-            time.sleep(1)
+            time.sleep(5)
             counter += 5
             index += 1
         with allure.step('prodcut log is stored in ./output/api/final-prodcutlog.xlsx'):
