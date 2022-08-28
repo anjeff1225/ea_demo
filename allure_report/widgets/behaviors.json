@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"93e612daff5b309e6bb63acce5a3ef73","name":"Login a to AWS console","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{"total":2,"items":[{"uid":"8f8ea2582f20f44d1749525b471cdedd","name":"Login a to AWS console and upload file (UI)","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"f69815f7eed12653bc89c38ccc7af90a","name":"Test input/product api to get logs (API)","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

@@ -44,7 +44,7 @@ class UploadPage(BasePage):
         BasePage.__init__(self, driver)
 
     def upload_file(self):
-        with allure.step('Click upload file button'):
+        with allure.step('Click add file button'):
             self.click_element(elementsMap['add_files_button'])
         with allure.step('select local file to upload'):
             upload_file_window_action(os.getcwd() + r'/input')

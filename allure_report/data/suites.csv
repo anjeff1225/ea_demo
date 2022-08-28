@@ -1,2 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Aug 28 07:22:59 PDT 2022","Sun Aug 28 07:23:55 PDT 2022","55872","test_cases.ui","test_upload_file","TestUploadFile","","","Test Upload file to S3 Bucket success",""
+"broken","Sun Aug 28 12:33:39 PDT 2022","Sun Aug 28 12:34:14 PDT 2022","35262","test_cases.ui","test_upload_file","TestUploadFile","","","Test Upload file to S3 Bucket success",""
+"passed","Sun Aug 28 12:33:07 PDT 2022","Sun Aug 28 12:33:21 PDT 2022","14837","test_cases.api","test_api","TestApi","","","Monitor the progress of the system generating a catalog output",""
+"passed","Sun Aug 28 12:33:21 PDT 2022","Sun Aug 28 12:33:36 PDT 2022","14159","test_cases.api","test_api","TestApi","","","Monitor the progress of the system generating a product output",""

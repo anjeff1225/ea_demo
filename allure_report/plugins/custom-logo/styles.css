@@ -1,0 +1,11 @@
+.side-nav__brand {
+  background: url('allure-logo.jpg') no-repeat left center !important;
+  margin-left: 10px;
+  height: 70px;
+  background-size: contain !important;
+  }
+  
+  
+  .side-nav__brand span{
+  display: none;
+  }

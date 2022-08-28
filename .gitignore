@@ -1,5 +1,7 @@
 .idea
 
-# test cache
+# test cache & report
 .pytest_cache/
 __pycache__/
+report/
+output/

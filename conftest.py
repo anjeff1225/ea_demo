@@ -33,7 +33,7 @@ def driver(request):
     print('STARTING BROWSER: %s' % name)
 
     yield _driver
-    # _driver.quit()
+    _driver.quit()
 
 
 @pytest.fixture(scope="session", autouse=True)

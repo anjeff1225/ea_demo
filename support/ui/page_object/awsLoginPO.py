@@ -52,10 +52,10 @@ class LoginPage(BasePage):
             '''
             # src_url = self.get_attribute(elementsMap['captcha_image'], 'src')
             # img_r = requests.get(url=src_url)
-            # with open(os.getcwd() + '/output/captcha.png', 'wb') as f:
+            # with open(os.getcwd() + '/output/ui/captcha.png', 'wb') as f:
             #     f.write(img_r.content)
             # decode = Captcha_recognize('anjeff1225', 'woshishui', '938314')
-            # img = open(os.getcwd() + '/output/captcha.png', 'rb').read()
+            # img = open(os.getcwd() + '/output/ui/captcha.png', 'rb').read()
             # res = decode.PostPic(img, 1902)
             # captcha_text = res['pic_str']
             # print(captcha_text)
