@@ -14,6 +14,23 @@ check the below instructions will give you a copy of the project up and running 
   ```
   pip install -r requirements.txt
   ```
+* Install webdriver
+
+  - **Windows**: download the webdriver from below links, make sure the version you select matches the brwose version your host has
+    
+    _Chrome Webdriver: https://chromedriver.chromium.org/downloads_
+    
+    _Firefox Webdriver: https://github.com/mozilla/geckodriver/releases_
+
+    After download the zip file, unzip them and put the *.exe file in the same path as your python3 binary
+
+  - Linux: https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/
+
+* Install allure
+
+  1. Download allure with the latest version. https://github.com/allure-framework/allure2/releases/tag/2.19.0
+  2. Unpack the archive to the allure-commandline directory
+  3. Add allure to system PATH
 
 ## Running the test and generating a report
 
