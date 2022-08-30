@@ -1,0 +1,21 @@
+-
+  name: Failure with delete method
+  request:
+    method: delete
+    url: https://6306707cdde73c0f845aa718.mockapi.io/input
+  validate:
+    - eq: {err: }
+-
+  name: Failure with put method
+  request:
+    method: put
+    url: https://6306707cdde73c0f845aa718.mockapi.io/input
+  validate:
+    - eq: {err: }
+-
+  name: Failure with post method
+  request:
+    method: post
+    url: https://6306707cdde73c0f845aa718.mockapi.io/input
+  validate:
+    - eq: {err_code: 404}
